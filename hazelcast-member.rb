@@ -1,8 +1,8 @@
 class HazelcastMember < Formula
   desc "A command line tool for running one or more Hazelcast member instance(s) on the local machine"
-  homepage "https://github.com/googlielmo/hazelcast-member"
+  homepage "https://github.com/hazelcast/hazelcast-member-tool"
   version "3.9.3_2"
-  url "https://github.com/googlielmo/hazelcast-member/raw/master/archive/hazelcast-member-#{version}.tar.gz"
+  url "https://github.com/hazelcast/hazelcast-member-tool/raw/master/archive/hazelcast-member-#{version}.tar.gz"
   sha256 "518e942c21aa7effbc117a4dab5d0fbe9f8c864a3d17389e577947aa04777d89"
 
   depends_on "coreutils"
